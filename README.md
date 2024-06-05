@@ -6,7 +6,7 @@ For now, it only supports WiFi speed testing, but plans to implement WiFi scanni
 
 ## Installation
 To install please run the pip command:
-```bash pip install speedtest-cli```
+``` pip install speedtest-cli```
 
 Then clone this repository and run the script. 
 
