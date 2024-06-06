@@ -1,6 +1,6 @@
 import speedtest
-import socket
-import subprocess
+import nmap
+
 
 # Helper function to convert bytes to megabits
 def convertBytesToMb(b):
@@ -10,7 +10,8 @@ def convertBytesToMb(b):
 
 # Helper function to scan network for devices
 def scanNetwork():
-    return "Not implemented yet"
+    nm = nmap.PortScanner()
+    
 
 st = speedtest.Speedtest()
 
